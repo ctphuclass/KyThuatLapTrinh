@@ -46,7 +46,7 @@ namespace BaiTapArray
 			int [] A;
 			int i;
 			string sMessage = "";
-			int iViTri = 0, iGiaTri = 0;
+			int iViTri = 0, iGiaTri = 0, iCount = 0;
 			bool bFlag = false;
 			iN = InputInt("Nhap N", 3, 20);
 			A = new int[iN];
@@ -57,6 +57,7 @@ namespace BaiTapArray
 			}
 			WriteArray(A, iN);
 			
+			iCount = 0;
 			for (i = 0; i < iN; i++) 
 			{
 				if(IsSoNguyenTo(A[i]))
@@ -64,6 +65,7 @@ namespace BaiTapArray
 					iViTri = i;
 					iGiaTri = A[i];
 					bFlag = true;
+					iCount = iCount + 1;
 				}
 			}
 			if(bFlag == true)
