@@ -3,3 +3,8 @@ D:\0 - Client\VIDO\VIDOK13\BaiTapArray\BaiTapArray\bin\Debug\BaiTapArray.exe
 D:\0 - Client\VIDO\VIDOK13\BaiTapArray\BaiTapArray\bin\Debug\BaiTapArray.pdb
 D:\0 - Client\VIDO\VIDOK13\BaiTapArray\BaiTapArray\obj\Debug\BaiTapArray.exe
 D:\0 - Client\VIDO\VIDOK13\BaiTapArray\BaiTapArray\obj\Debug\BaiTapArray.pdb
+D:\KTLT\BaiTapArray\BaiTapArray\obj\Debug\ResolveAssemblyReference.cache
+D:\KTLT\BaiTapArray\BaiTapArray\obj\Debug\BaiTapArray.exe
+D:\KTLT\BaiTapArray\BaiTapArray\bin\Debug\BaiTapArray.exe
+D:\KTLT\BaiTapArray\BaiTapArray\bin\Debug\BaiTapArray.pdb
+D:\KTLT\BaiTapArray\BaiTapArray\obj\Debug\BaiTapArray.pdb

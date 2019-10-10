@@ -18,11 +18,29 @@ namespace BaiTapArray
 			
 			// TODO: Implement Functionality Here
 			
-			BaiTapNhapXuatMangN();
+			//BaiTapNhapXuatMangN();
+			BaiTapTimSoNguyenTo();
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
+		
+		static void BaiTapTimSoNguyenTo()
+		{
+			int iN;
+			int [] A;
+			int i;
+			string sMessage = "";
+			iN = InputInt("Nhap N", 3, 20);
+			A = new int[iN];
+			for (i = 0; i < iN; i++) 
+			{
+				sMessage = String.Format("Nhap phan tu thu {0}",i+1);
+				A[i] = InputInt(sMessage,2,1000);
+			}
+			WriteArray(A, iN);
+		}
+		
 		static void BaiTapNhapXuatMangN()
 		{
 			int iN;
