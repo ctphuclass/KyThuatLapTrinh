@@ -28,7 +28,15 @@ namespace BaiTapArray
 		static bool IsSoNguyenTo(int piN)
 		{
 			bool bResult = false;
-			
+			for (int i = 2; i < piN; i++) 
+			{
+				if(piN % i == 0)
+				{
+					bResult = false;
+					return bResult;
+				}
+			}
+			bResult = true;
 			return bResult;
 		}
 		
@@ -38,6 +46,8 @@ namespace BaiTapArray
 			int [] A;
 			int i;
 			string sMessage = "";
+			int iViTri = 0, iGiaTri = 0;
+			bool bFlag = false;
 			iN = InputInt("Nhap N", 3, 20);
 			A = new int[iN];
 			for (i = 0; i < iN; i++) 
@@ -46,6 +56,24 @@ namespace BaiTapArray
 				A[i] = InputInt(sMessage,2,1000);
 			}
 			WriteArray(A, iN);
+			
+			for (i = 0; i < iN; i++) 
+			{
+				if(IsSoNguyenTo(A[i]))
+				{
+					iViTri = i;
+					iGiaTri = A[i];
+					bFlag = true;
+				}
+			}
+			if(bFlag == true)
+			{
+				Console.WriteLine("Mang A co so nguyen to tai vi tri {0}: {1}", iViTri+1, iGiaTri);
+			}
+			else
+			{
+				Console.WriteLine("Mang A khong co so nguyen to.");
+			}
 		}
 		
 		static void BaiTapNhapXuatMangN()
