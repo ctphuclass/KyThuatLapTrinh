@@ -25,6 +25,13 @@ namespace BaiTapArray
 			Console.ReadKey(true);
 		}
 		
+		static bool IsSoNguyenTo(int piN)
+		{
+			bool bResult = false;
+			
+			return bResult;
+		}
+		
 		static void BaiTapTimSoNguyenTo()
 		{
 			int iN;
