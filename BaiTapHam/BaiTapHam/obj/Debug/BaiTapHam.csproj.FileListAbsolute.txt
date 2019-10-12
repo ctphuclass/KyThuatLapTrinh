@@ -1,0 +1,5 @@
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.csprojResolveAssemblyReference.cache
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.exe
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.pdb
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.exe
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.pdb
