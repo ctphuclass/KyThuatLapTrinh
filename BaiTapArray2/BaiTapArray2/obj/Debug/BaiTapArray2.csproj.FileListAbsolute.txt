@@ -1,0 +1,5 @@
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapArray2\BaiTapArray2\obj\Debug\BaiTapArray2.csprojResolveAssemblyReference.cache
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapArray2\BaiTapArray2\bin\Debug\BaiTapArray2.exe
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapArray2\BaiTapArray2\bin\Debug\BaiTapArray2.pdb
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapArray2\BaiTapArray2\obj\Debug\BaiTapArray2.exe
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapArray2\BaiTapArray2\obj\Debug\BaiTapArray2.pdb
