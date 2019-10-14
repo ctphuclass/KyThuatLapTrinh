@@ -1,0 +1,11 @@
+D:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\bin\Debug\netcoreapp2.2\BangCuuChuong.deps.json
+D:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\bin\Debug\netcoreapp2.2\BangCuuChuong.runtimeconfig.json
+D:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\bin\Debug\netcoreapp2.2\BangCuuChuong.runtimeconfig.dev.json
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\bin\Debug\netcoreapp2.2\BangCuuChuong.dll
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\bin\Debug\netcoreapp2.2\BangCuuChuong.pdb
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\obj\Debug\netcoreapp2.2\BangCuuChuong.csprojAssemblyReference.cache
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\obj\Debug\netcoreapp2.2\BangCuuChuong.csproj.CoreCompileInputs.cache
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\obj\Debug\netcoreapp2.2\BangCuuChuong.AssemblyInfoInputs.cache
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\obj\Debug\netcoreapp2.2\BangCuuChuong.AssemblyInfo.cs
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\obj\Debug\netcoreapp2.2\BangCuuChuong.dll
+d:\0 - Client\VIDO\KyThuatLapTrinh\BangCuuChuong\obj\Debug\netcoreapp2.2\BangCuuChuong.pdb
