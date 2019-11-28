@@ -1,0 +1,5 @@
+D:\KTLT\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.exe
+D:\KTLT\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.pdb
+D:\KTLT\BaiTapHam\BaiTapHam\obj\Debug\ResolveAssemblyReference.cache
+D:\KTLT\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.exe
+D:\KTLT\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.pdb

@@ -1,0 +1,5 @@
+D:\KTLT\BaiTapStruct\BaiTap667\bin\Debug\BaiTap667.exe
+D:\KTLT\BaiTapStruct\BaiTap667\bin\Debug\BaiTap667.pdb
+D:\KTLT\BaiTapStruct\BaiTap667\obj\Debug\ResolveAssemblyReference.cache
+D:\KTLT\BaiTapStruct\BaiTap667\obj\Debug\BaiTap667.exe
+D:\KTLT\BaiTapStruct\BaiTap667\obj\Debug\BaiTap667.pdb

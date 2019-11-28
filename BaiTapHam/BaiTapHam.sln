@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapHam", "BaiTapHam\BaiTapHam.csproj", "{15318B36-6A5F-494B-B244-56316B7AA64A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15318B36-6A5F-494B-B244-56316B7AA64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15318B36-6A5F-494B-B244-56316B7AA64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15318B36-6A5F-494B-B244-56316B7AA64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15318B36-6A5F-494B-B244-56316B7AA64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
