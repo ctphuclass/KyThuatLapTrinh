@@ -1,16 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-<<<<<<< HEAD
-    <ProjectGuid>{15318B36-6A5F-494B-B244-56316B7AA64A}</ProjectGuid>
-=======
-    <ProjectGuid>{5DE86424-B43E-48E1-96A0-44C776479531}</ProjectGuid>
->>>>>>> 344165921e077ff00e3751225aa9b2528ea074ee
+    <ProjectGuid>{24B4E2AD-39FD-419D-B246-1C3BE8A6E26B}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BaiTapHam</RootNamespace>
-    <AssemblyName>BaiTapHam</AssemblyName>
+    <RootNamespace>BaiTapArray2</RootNamespace>
+    <AssemblyName>BaiTapArray2</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <AppDesignerFolder>Properties</AppDesignerFolder>

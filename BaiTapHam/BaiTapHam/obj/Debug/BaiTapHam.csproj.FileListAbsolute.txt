@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 D:\KTLT\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.exe
 D:\KTLT\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.pdb
 D:\KTLT\BaiTapHam\BaiTapHam\obj\Debug\ResolveAssemblyReference.cache
 D:\KTLT\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.exe
 D:\KTLT\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.pdb
+=======
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.csprojResolveAssemblyReference.cache
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.exe
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\bin\Debug\BaiTapHam.pdb
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.exe
+D:\0 - Client\VIDO\KyThuatLapTrinh\BaiTapHam\BaiTapHam\obj\Debug\BaiTapHam.pdb
+>>>>>>> 344165921e077ff00e3751225aa9b2528ea074ee

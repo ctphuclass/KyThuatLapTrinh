@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapArray2", "BaiTapArray2\BaiTapArray2.csproj", "{24B4E2AD-39FD-419D-B246-1C3BE8A6E26B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24B4E2AD-39FD-419D-B246-1C3BE8A6E26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B4E2AD-39FD-419D-B246-1C3BE8A6E26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B4E2AD-39FD-419D-B246-1C3BE8A6E26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B4E2AD-39FD-419D-B246-1C3BE8A6E26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

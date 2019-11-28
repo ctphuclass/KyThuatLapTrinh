@@ -1,10 +1,15 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: VienDong
- * Date: 10/24/2019
- * Time: 8:30 AM
+ * User: phutc
+ * Date: 12/10/2019
+ * Time: 1:33 PM
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ * 
+ * Viet chuong trinh nhap N,M tu ban phim [3,10]
+ * Ve Hinh chu nhat hinh sao (*) rong ruot kich thuoc (N,M)
+ * 
+>>>>>>> 344165921e077ff00e3751225aa9b2528ea074ee
  */
 using System;
 
@@ -12,67 +17,63 @@ namespace BaiTapHam
 {
 	class Program
 	{
-		
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-//			Console.WriteLine("Input N= {0}, Input M ={1}",InputInt("Nhap N", 100, 1000),InputInt("Nhap M", 100, 1000));
-			int iN;
-			
-			
-			iN = InputInt("Nhap N", 2, 50);
-			
-			Console.WriteLine("Tong {0} so la {1}", iN, SumToN(iN));
-			Console.WriteLine("Tong {0} so la {1}", iN, SumToN1(iN));
-			Console.WriteLine("Giai Thua {0} so la {1}", iN, GiaiThua(iN));
-			
-//			if(SoNguyenTo(iN))
-//			{
-//				Console.WriteLine("{0} la so nguyen to", iN);
-//			}
-//			else
-//			{
-//				Console.WriteLine("{0} khong phai la so nguyen to", iN);
-//			}
-			
-//			for (int i = 1; i <= iN/2; i++) 
-//			{
-//				if((iN%i==0)&&(i%2==1))
-//				{
-//					Console.WriteLine("{0} la uoc so le cua {1}", i, iN);
-//				}
-//			}
-//			 
-			//Console.Write("Press any key to continue . . . ");
+			//BaiTapSoNguyenTo();
+			BaiTapGiaiPhuongTrinh();
+			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
-			
 		}
 		
-		static int SumToN(int piN)
+		static void BaiTapGiaiPhuongTrinh()
 		{
-			int iResult = 0;
-			for (int i = 1; i <= piN; i++) 
+			Console.WriteLine("Giai phuong trinh bac 2");
+			double dA,dB,dC,dX1,dX2;
+			int iSoNghiem;
+			dA = InputDouble("Nhap A", 1, 1000);
+			dB = InputDouble("Nhap B", 1, 1000);
+			dC = InputDouble("Nhap C", 1, 1000);
+			iSoNghiem = GPTB2(dA, dB, dC, out dX1, out dX2);
+			if(iSoNghiem == 0)
 			{
-				iResult = iResult + i;
+				Console.WriteLine("Phuong trinh {0}*X*X + {1}*X + {2} = 0 Vo nghiem",dA,dB,dC);
 			}
-			return iResult;
-		}
-		
-		static int SumToN1(int piN)
-		{
-			int iResult = 0;
-			if(piN == 1)
+			else if(iSoNghiem == 1)
 			{
-				iResult = 1;
+				Console.WriteLine("Phuong trinh {0}*X*X + {1}*X + {2} = 0 Co 1 Nghiem X={3}",dA,dB,dC,dX1);
 			}
 			else
 			{
-				iResult = SumToN1(piN - 1) + piN;
+				Console.WriteLine("Phuong trinh {0}*X*X + {1}*X + {2} = 0 Co 2 Nghiem X1={3}, X2={4}",dA,dB,dC,dX1, dX2);
+			}
+		}
+		
+		static int GPTB2(double pdA, double pdB, double pdC, out double X1, out double X2)
+		{
+			int iResult = 0;
+			X1 = 0;
+			X2 = 0;
+			double delta = (pdB * pdB) - (4 * pdA * pdC);
+			if (delta < 0) 
+			{
+				iResult = 0;	
+			}else if (delta == 0) 
+			{
+				iResult = 1;
+				X1 = (0-pdB)/(2*pdA);
+				X2 = (0-pdB)/(2*pdA);
+			}
+			else
+			{
+				iResult = 2;
+				X1 = (0-pdB + Math.Sqrt(delta) )/(2*pdA);
+				X2 = (0-pdB - Math.Sqrt(delta) )/(2*pdA);
+
 			}
 			return iResult;
 		}
 		
+
 		static int GiaiThua(int piN)
 		{
 			int iResult = 1;
@@ -82,10 +83,28 @@ namespace BaiTapHam
 			return iResult;
 		}
 		
-		static bool SoNguyenTo(int piN)
+		static void BaiTapSoNguyenTo()
+		{
+			int iN;
+			Console.WriteLine("Bai Tap So Nguyen To!");
+			iN = InputInt("Nhap N", 2, 1000);
+			Console.WriteLine("N = {0}", iN);
+			
+			if(CoLaSoNguyenTo(iN) == true)
+			{
+				Console.WriteLine("{0} La so nguyen to", iN);
+			}
+			else
+			{
+				Console.WriteLine("{0} khong phai la so nguyen to", iN);
+			}
+			
+		}
+		
+		static bool CoLaSoNguyenTo(int piN)
 		{
 			bool bResult = false;
-			for (int i = 2; i <= piN/2; i++) 
+			for (int i = 2; i <= piN - 1 ; i++) 
 			{
 				if(piN % i == 0)
 				{
@@ -109,20 +128,63 @@ namespace BaiTapHam
 			return iResutl;
 		}
 		
-		static void VeThap(int iX, int iY, int [] iA, int iN)
+		
+		static bool ChiaHetCho3(int piN)
 		{
-			
-			for (int i = 0; i < iN; i++) 
+			bool bResult = false;
+			if(piN % 3 == 0)
 			{
-				
-				for (int j = 0; j < iA[i]; j++) {
-					Console.SetCursorPosition(iX+j, iY+i);
-					Console.Write("*");
+				bResult = true;
+			}
+			else
+			{
+				bResult = false;
+			}
+			return bResult;
+		}
+		
+		static void BaiTapVeHinh()
+		{
+			int iN, iM;
+			Console.WriteLine("Ve Hinh Chu Nhat!");
+			
+			iN = InputInt("Nhap N", 3, 10);
+			
+			iM = InputInt("Nhap M", 3, 10);
+			
+			DrawRectangle(iN, iM);
+		}
+		
+		static int InputInt(string psMessage, int piMin, int piMax)
+		{
+			int iResult = 0;
+			do{
+				Console.Write("{0} [{1},{2}]: ", psMessage, piMin, piMax);
+				iResult = int.Parse(Console.ReadLine());
+			}while (iResult < piMin || iResult > piMax);
+			return iResult;
+		}
+		
+		static double InputDouble(string psMessage, double piMin, double piMax)
+		{
+			double dResult = 0;
+			do{
+				Console.Write("{0} [{1},{2}]: ", psMessage, piMin, piMax);
+				dResult = double.Parse(Console.ReadLine());
+			}while (dResult < piMin || dResult > piMax);
+			return dResult;
+		}
+		
+		static void DrawRectangle(int piN, int piM)
+		{
+			for (int i = 0; i < piN; i++) {
+				for (int j = 0; j < piM; j++) {
+					Console.Write(" * ");
 				}
-				//Console.WriteLine();
+				Console.WriteLine();
 			}
 		}
 		
-		
+
 	}
 }
